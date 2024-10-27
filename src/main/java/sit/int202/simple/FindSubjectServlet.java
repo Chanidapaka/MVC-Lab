@@ -10,6 +10,7 @@ import sit.int202.simple.entities.Subject;
 
 import java.io.IOException;
 
+//Controller FindSubjectServlet
 @WebServlet(name = "findsubjectservlet", value = "/find-Subject")//Map URL//
 public class FindSubjectServlet extends HttpServlet {
 

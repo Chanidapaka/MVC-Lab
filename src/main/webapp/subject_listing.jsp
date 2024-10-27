@@ -9,9 +9,12 @@
 </head>
 <body style="margin-left: 150px">
 
+//scripting Java//
 <%-- <%--%>
 <%--     List<Subject> subjectList= (List<Subject>) request.getAttribute("subjects");--%>
 <%-- %>--%>
+
+//Create JSP //
 <table>
     <tr>
         <th>Subject Code</th>
