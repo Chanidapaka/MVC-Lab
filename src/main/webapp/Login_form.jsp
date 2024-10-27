@@ -7,10 +7,14 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Title</title>
+</head>
+<body>
+    <form action = "test-parameter" method="post"> <%--clien ส่งไปให้server --%>
+        User name:<input type="text" name="username"><br>
+        Password: <input type="password" name="password">
+        <input type="submit"/>
+    </form>
+</body>
 </html>
