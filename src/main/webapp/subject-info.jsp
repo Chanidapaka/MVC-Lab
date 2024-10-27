@@ -1,5 +1,7 @@
 <%@ page import="sit.int202.simple.entities.Subject" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+
 <html>
 <head>
     <title>Subject Detail</title>

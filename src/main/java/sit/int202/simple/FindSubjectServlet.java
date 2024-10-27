@@ -14,12 +14,20 @@ import java.io.IOException;
 @WebServlet(name = "findsubjectservlet", value = "/find-Subject")//Map URL//
 public class FindSubjectServlet extends HttpServlet {
 
+    //ตอนเรียกมา
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        //ตัวแปร subjectId
         String subjectId = request.getParameter("subjectId");
+
+        //เรียก Model ขึ้นมา
         SubjectRepository sr = new SubjectRepository();
+
+        //เอา พารามิเตอร์ subjectId มาค้นหา
         Subject subject = sr.findById(subjectId);
+
+        //เอา  subjectId มาเซ็ตAttribute
         request.setAttribute("subject", subject);
-        request.getRequestDispatcher("/subject-info.jsp").forward(request, response);
+        request.getRequestDispatcher("/subject-info.jsp").forward(request, response); //view ชื่อsubject-info
     }
 
     public void destroy() {

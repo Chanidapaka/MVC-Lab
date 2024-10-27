@@ -14,7 +14,8 @@
 <%--     List<Subject> subjectList= (List<Subject>) request.getAttribute("subjects");--%>
 <%-- %>--%>
 
-//Create JSP //
+
+<%-- Create JSP--%>
 <table>
     <tr>
         <th>Subject Code</th>

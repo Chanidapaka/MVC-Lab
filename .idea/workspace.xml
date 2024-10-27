@@ -11,8 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0e7216dd-68a1-4dbf-b8b9-810589a24c9f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sit/int202/simple/SubjectListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sit/int202/simple/SubjectListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sit/int202/simple/TestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sit/int202/simple/TestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sit/int202/simple/FindSubjectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sit/int202/simple/FindSubjectServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/subject-info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/subject-info.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/subject_listing.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/subject_listing.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
