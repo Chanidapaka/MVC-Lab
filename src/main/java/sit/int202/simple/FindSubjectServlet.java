@@ -5,11 +5,10 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import sit.int202.simple.Repository.SubjectRepository;
+import sit.int202.simple.Repositories.SubjectRepository;
 import sit.int202.simple.entities.Subject;
 
 import java.io.IOException;
-import java.util.List;
 
 @WebServlet(name = "findsubjectservlet", value = "/find-Subject")//Map URL//
 public class FindSubjectServlet extends HttpServlet {

@@ -1,4 +1,4 @@
-package sit.int202.simple.Repository;
+package sit.int202.simple.Repositories;
 import sit.int202.simple.entities.Subject;
 import java.util.ArrayList;
 import java.util.List;

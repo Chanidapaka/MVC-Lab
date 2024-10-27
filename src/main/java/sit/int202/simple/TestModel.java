@@ -1,5 +1,5 @@
 package sit.int202.simple;
-import sit.int202.simple.Repository.SubjectRepository;
+import sit.int202.simple.Repositories.SubjectRepository;
 import sit.int202.simple.entities.Subject;
 
 public class TestModel {
